@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meta Tag Generator</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="app">
+
+    <h1>✨ Meta Tag Generator</h1>
+    <p class="subtitle">Generate SEO & Social Media Meta Tags Instantly</p>
+
+    <div class="card">
+
+      <label>Page Title</label>
+      <input type="text" id="title" placeholder="Enter page title">
+
+      <label>Meta Description</label>
+      <textarea id="description" placeholder="Enter meta description"></textarea>
+
+      <label>Keywords</label>
+      <input type="text" id="keywords" placeholder="keyword1, keyword2">
+
+      <label>Page URL</label>
+      <input type="text" id="url" placeholder="https://example.com">
+
+      <button onclick="generateTags()">Generate Meta Tags</button>
+
+      <pre id="output"></pre>
+
+      <button class="copy-btn" onclick="copyTags()">Copy Meta Tags</button>
+
+    </div>
+
+    <footer>
+    Built by <strong>Rachana Rathore</strong> | <a href="mailto:rachana240998@gmail.com">rachana240998@gmail.com</a>
+    <a href="https://digitalheroesco.com" target="_blank">Digital Heroes</a>  
+    
+    </footer>
+
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
